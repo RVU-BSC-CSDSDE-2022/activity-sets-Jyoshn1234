@@ -1,10 +1,14 @@
 #include<stdio.h>
+
 void input(float base, float height);
 void find_area(float base , float height, float *area);
 void output(float base, float height, float area);
+
 int main(){
   float base,height;
-  input(base,height);}
+  input(base,height);
+
+}
 
 void input(float base, float height){
   
@@ -15,7 +19,6 @@ void input(float base, float height){
   float area;
   find_area(base,height,&area);
   output(base,height,area);
-
 }
 void find_area(float base , float height, float *area){
   *area=0.5*base*height;

@@ -96,9 +96,7 @@ void output(int sum);
 
 ***Function Declarations***
 ```c
-int input();
-int find_gcd(int a, int b);
-void output(int a, int b, int gcd);
+ 
 ```
 
 ***Input***
@@ -169,7 +167,6 @@ typedef struct _triangle {
 	float base, altitude, area;
 } Triangle;
 int input_n();
-
 Triangle input_triangle();
 void input_n_triangles(int n, Triangle t[n]);
 void find_area(Triangle *t);
